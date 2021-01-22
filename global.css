@@ -1,10 +1,34 @@
 #nav1{
     background-color: #145A32;
     text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0px;
 }
 
 #nav2{
     background-color: #1D8348;
+    text-align: center;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+    box-sizing: border-box;
+    position: sticky;
+    top: 96px;
+}
+
+#nav2 a{
+    font-size: 23px;
+}
+
+#nav2 .dere{
+    margin-left: 80px;
 }
 
 footer{
@@ -18,21 +42,61 @@ footer{
 }
 #nav3{
     color: white;
+    margin-top: 20%;
+    font-size: 23px;
+}
+
+#nav4{
+    color: white;
+    margin-top: 10%;
+    font-size: 30px;
+}
+
+#nav5{
+    margin-top: 4%;
 }
 
 #busca{
     width: 250px;
     height: 60px;
+    margin-top: 5%;
+    margin-right: 50px;
 }
 
-div > img {
-    height: 50px;
-    width: 65px;
+#img1{
+    height: 35px;
+    width: 50px;
+}
+#img2{
+    height: 35px;
+    width: 35px;
+}
+#img4{
+    height: 30px;
+    width: 40px;
+}
+#img3{
+    height: 40px;
+    width: 40px;
+}
+
+#imagen1{
+    margin-top: 9px;
+}
+
+div > p{
+    margin-top: 13px;
 }
 
 a{
     color: white;
 }
+
+a:hover{
+    color:whitesmoke;
+    background-color: #28b463;
+}
+
 @import url(https://allfont.es/allfont.css?fonts=arvo);
 
 .slider {

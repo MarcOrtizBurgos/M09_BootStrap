@@ -7,19 +7,29 @@
         <link rel=stylesheet href="global.css" type="text/css" media=screen>
     </head>
     <body>
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-            <a class="navbar-brand" href="#">Logo</a>
+        <nav id="nav1" class="navbar navbar-expand-sm justify-content-center">
+            <img id="logo1" src="imagenes\logo.jpg">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a id="nav3" class="nav-link">BookHub</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <form class="form-inline" action="/action_page.php">
+                    <input id="busca" class="form-control mr-sm-2" type="text" placeholder="Buscador">
+                  </form>
+              </li>
+              <li class="nav-item">
+                <a id="nav3" class="nav-link">_LinkDrake20</a>
+              </li>
+              <li class="nav-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" fill="white" class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                </svg>
               </li>
             </ul>
         </nav>
-        <br><br>
-        <nav>
+        <nav id="nav2">
             <ul class="nav justify-content-center">
                 <li class="nav-item">
                   <a class="nav-link" href="#">Qui som</a>
@@ -43,8 +53,27 @@
               <li><img src="imagenes/donde1.jpg" alt="" id="slider"></li>
           </ul>
         </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         <footer>
-            <p>Copyright © 2020 BookHub. Todos los derechos reservados</p>
+          <div class="container-fluid py-3">
+            <div class="container">
+              <div class="row py-3">
+                <div class="col-md-8">
+                  <p>Copyright © 2020 BookHub. Todos los derechos reservados</p>
+                </div>
+                <div class="col-md-4">
+                  <div class="d-inline-block">
+                    <div>
+                      <img src="imagenes/log1.png">
+                      <img src="imagenes/log2.png">
+                      <img src="imagenes/log3.png">
+                      <img src="imagenes/log4.png">
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </footer>
     </body>
 </html>

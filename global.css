@@ -1,3 +1,39 @@
+#nav1{
+    background-color: #145A32;
+    text-align: center;
+}
+
+#nav2{
+    background-color: #1D8348;
+}
+
+footer{
+    background-color: #145A32;
+    color: white;
+}
+
+#logo1{
+    width: 85px;
+    height: 85px;
+}
+#nav3{
+    color: white;
+}
+
+#busca{
+    width: 250px;
+    height: 60px;
+}
+
+div > img {
+    height: 50px;
+    width: 65px;
+}
+
+a{
+    color: white;
+}
+
 .slider {
     width: 100%;
     height: auto;

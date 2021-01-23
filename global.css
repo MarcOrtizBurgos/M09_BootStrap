@@ -48,8 +48,8 @@ footer{
 
 #nav4{
     color: white;
-    margin-top: 10%;
-    font-size: 30px;
+    margin-top: 36%;
+    font-size: 20px;
 }
 
 #nav5{
@@ -95,6 +95,19 @@ a{
 a:hover{
     color:whitesmoke;
     background-color: #28b463;
+}
+
+article{
+    width: 50%;
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+
+iframe{
+    width: 40%;
+    margin-left: 30%;
 }
 
 @import url(https://allfont.es/allfont.css?fonts=arvo);

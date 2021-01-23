@@ -113,6 +113,10 @@ iframe{
     margin-left: 30%;
 }
 
+p,a,article{
+    font-family: 'Arvo', arial;
+}
+
 .slider {
     width: 100%;
     height: auto;

@@ -323,3 +323,8 @@ iframe{
     font-size: 40px;
     margin-top: 30px;
 }
+
+.fin_compra:hover{
+    color:whitesmoke;
+    background-color: #F4D03F;
+}

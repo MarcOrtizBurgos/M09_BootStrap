@@ -66,6 +66,7 @@ details{
     transition: height 1s ease;
     overflow: hidden;
     text-align: center;
+    line-height: 1;
     margin: 100px;
     font-weight: bold;
     font-size: 3em;

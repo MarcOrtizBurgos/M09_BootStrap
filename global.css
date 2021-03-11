@@ -33,19 +33,6 @@
 #nav2 .dere{
     margin-left: 80px;
 }
-
-.quadrat{
-    margin-left: 80vh;
-    background: rgb(233, 130, 34);
-    width: 400px;
-    height: 300px;
-    margin: 100 auto;
-    transition: transform 1s steps(50), background 1s steps(50);
-}
-.quadrat:hover{  
-    background: rgb(80, 221, 237);
-    transform:scale(0.25);
-}
   
 footer{
     background-color: #145A32;

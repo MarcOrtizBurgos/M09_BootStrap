@@ -34,6 +34,51 @@
     margin-left: 80px;
 }
 
+.quadrat{
+    margin-left: 80vh;
+    background: rgb(233, 130, 34);
+    width: 400px;
+    height: 300px;
+    margin: 100 auto;
+    transition: transform 1s steps(50), background 1s steps(50);
+}
+
+.quadrat:hover{  
+    background: rgb(80, 221, 237);
+    transform:scale(0.25);
+}
+
+section .cuadrado{
+    margin-left: 88vh;
+    background: red;
+    width: 30px;
+    height: 30px;
+    margin: 100 auto;
+    display: block;
+    transition: all 1s;
+}
+
+section .cuadrado:hover{
+    transform: scale(2,1);
+}
+
+details{
+    transition: height 1s ease;
+    overflow: hidden;
+    text-align: center;
+    margin: 100px;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+details:not([open]){
+    height: 1.25em;
+}
+
+details[open]{
+    height: 2.50em;
+}
+
 footer{
     background-color: #145A32;
     color: white;

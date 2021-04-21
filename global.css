@@ -162,7 +162,7 @@ p,a,article{
 }
   
 .hijo_g {
-    background-color: #B7950B;
+    background-color: #AD5F1A;
     height: 220px;
     width: 1100px;
     margin-left: auto;
@@ -204,7 +204,7 @@ p,a,article{
     height: 220px;
     width: 540px;
     margin: 10px;
-    background-color: #B7950B;
+    background-color: #AD5F1A;
     font-family: 'Arvo', arial;
 }
 
@@ -232,7 +232,7 @@ p,a,article{
     height: 220px;
     width: 354px;
     margin: 10px;
-    background-color: #B7950B;
+    background-color: #AD5F1A;
     font-family: 'Arvo', arial;
     display: inline-block;
 }
@@ -304,7 +304,7 @@ p,a,article{
 }
 
 .fin_compra{
-    background-color: #B7950B;
+    background-color: #AD5F1A;
     height: 64px;
     width: 1100px;
     margin-left: auto;
@@ -331,7 +331,7 @@ p,a,article{
 
 .fin_compra:hover{
     color:whitesmoke;
-    background-color: #F4D03F;
+    background-color: #CF7320;
 }
 
 #video_background {
